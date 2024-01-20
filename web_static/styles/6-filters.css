@@ -60,12 +60,12 @@ button:hover {
     text-align: left;
     padding-left: 45px;
     margin-left: 0;
-    visibility: hidden;
+    display: none;
 }
 
 .locations:hover .popover,
 .amenities:hover .popover{
-    visibility: visible;
+    display: block;
 }
 
 .popover h2 {
